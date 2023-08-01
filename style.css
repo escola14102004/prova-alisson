@@ -1,0 +1,26 @@
+/*SELETOR UNIVERSAL*/
+*{margin: 0px;
+    padding: 0px;
+}
+/*CORPO DA PAGINA*/
+body{
+font-family: sans-serif;
+}
+/*SECÇAO CABEÇALHO*/
+.cabecalho{
+    background-color: rgb(177, 177, 204);
+    color: rgb(6, 6, 70);
+    display: flex;
+    padding: 30px;
+    font-size: 24px;
+    justify-content: space-around;
+}
+.cabecalho-imagem{
+    width: 150px;
+    height: 150px;
+}
+.cabecalho-item{
+    display: inline-block;
+    padding: 0 100px;
+    text-decoration: underline;
+}
